@@ -97,7 +97,19 @@ const Skill = () => {
           textColor: "text-white",
           subtitle: "C2",
         },
-
+        {
+          name: "GAMING",
+          icon: "cod",
+          color: "bg-yellow-500",
+          textColor: "text-black",
+          subtitle: "B1/B2",
+        },
+        {
+          name: "COOKING",
+          icon: "c",
+          color: "bg-blue-800",
+          textColor: "text-white",
+        },
         { name: "C", icon: "C", color: "bg-gray-700", textColor: "text-white" },
       ],
     },
@@ -185,7 +197,7 @@ const Skill = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white p-8 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-black via-black to-black text-white p-8 relative overflow-hidden">
       {/* Background matrix effect */}
       <div className="absolute inset-0 opacity-10">
         {[...Array(50)].map((_, i) => (
@@ -201,7 +213,7 @@ const Skill = () => {
         ))}
       </div>
 
-      <div className="relative z-10 max-w-6xl mx-auto">
+      <div className="relative z-10 max-w-6xl mx-auto md: mt-10">
         {/* Main title with cinematic entrance */}
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-glow">
