@@ -21,7 +21,7 @@ const Skill = () => {
           textColor: "text-white",
         },
         {
-          name: "SASS",
+          name: "TAILWIND",
           icon: "💗",
           color: "bg-pink-400",
           textColor: "text-white",
@@ -97,19 +97,7 @@ const Skill = () => {
           textColor: "text-white",
           subtitle: "C2",
         },
-        {
-          name: "SPANISH",
-          icon: "🇪🇸",
-          color: "bg-yellow-500",
-          textColor: "text-black",
-          subtitle: "B1/B2",
-        },
-        {
-          name: "C++",
-          icon: "C++",
-          color: "bg-blue-800",
-          textColor: "text-white",
-        },
+
         { name: "C", icon: "C", color: "bg-gray-700", textColor: "text-white" },
       ],
     },
