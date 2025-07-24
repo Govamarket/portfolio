@@ -3,11 +3,12 @@ import { Github, Instagram, Linkedin } from "lucide-react";
 import profileImage from "../assets/me.jpg"; // Adjust the path as necessary
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
+import About from "./About";
 
 const Home = () => {
   return (
     <div>
-      <div className="min-h-screen bg-gray-100 flex flex-col lg:flex-row mt-28">
+      <div className="min-h-72 bg-gray-100 flex flex-col lg:flex-row mt-28">
         {/* Left Panel */}
         <div className="w-full lg:w-1/2 bg-gray-100 p-6 md:p-12 flex flex-col justify-between order-2 lg:order-1">
           {/* Header */}
@@ -55,21 +56,6 @@ const Home = () => {
           </div>
 
           {/* Bottom Section - IT BERRIES */}
-          <div className="bg-gray-800 text-white p-4 md:p-6 rounded-lg">
-            <h3 className="text-lg font-bold mb-3">IT</h3>
-            <p className="text-xs md:text-sm text-gray-300 leading-relaxed mb-4">
-              👋 Hi, I'm Clinton 🎨 I specialize in UI/UX and Frontend
-              Development 🧠 Strong in Web3 – Solidity, React, JS, Smart
-              Contracts 🌱 Currently building decentralized tools and dApps 💼
-              Chief Editor @DappLab – Writing on airdrops, testnets & crypto
-              insights 🤝 Open to Web3 collabs, especially frontend-heavy
-              projects 📫 Reach me on Linktree ⚡ Fun fact: I turn ideas into
-              slick Web3 interfaces 🚀
-            </p>
-            <button className="text-white border border-white px-4 py-2 text-xs md:text-sm hover:bg-white hover:text-gray-800 transition-colors">
-              READ MORE
-            </button>
-          </div>
         </div>
 
         {/* Right Panel */}
@@ -156,6 +142,23 @@ const Home = () => {
           }
         }
       `}</style>
+      <div>
+        <div className="bg-gray-800 text-white p-4 md:p-2">
+          <h3 className="text-lg font-bold mb-3">IT</h3>
+          <p className="text-xs md:text-sm text-gray-300 leading-relaxed mb-4">
+            👋 Hi, I'm Clinton 🎨 I specialize in UI/UX and Frontend Development
+            🧠 Strong in Web3 – Solidity, React, JS, Smart Contracts 🌱
+            Currently building decentralized tools and dApps 💼 Chief Editor
+            @DappLab – Writing on airdrops, testnets & crypto insights 🤝 Open
+            to Web3 collabs, especially frontend-heavy projects 📫 Reach me on
+            Linktree ⚡ Fun fact: I turn ideas into slick Web3 interfaces 🚀
+          </p>
+          <button className="text-white border border-white px-4 py-2 text-xs md:text-sm hover:bg-white hover:text-gray-800 transition-colors">
+            READ MORE
+          </button>
+        </div>
+        <About />
+      </div>
 
       <div>
         <Footer />
