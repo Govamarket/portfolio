@@ -10,7 +10,7 @@ const About = () => {
 
   return (
     <div>
-      <div className="min-h-72 bg-gray-100 flex items-center justify-center">
+      <div className="min-h-screen bg-gray-100 flex items-center justify-center">
         <button
           onClick={toggleModal}
           className="text-black border border-black px-4 py-2 transition hover:bg-black hover:text-white"

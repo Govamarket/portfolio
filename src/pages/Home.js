@@ -2,7 +2,7 @@ import React from "react";
 import { Github, Instagram, Linkedin } from "lucide-react";
 import profileImage from "../assets/me.jpg"; // Adjust the path as necessary
 import { Link } from "react-router-dom";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import About from "./About";
 import Skill from "./Skill";
 
@@ -85,20 +85,24 @@ const Home = () => {
                 </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-gray-300 transition-colors whitespace-nowrap"
-                >
-                  Portfolio
-                </a>
+                <Link to="/portfolio">
+                  <a
+                    href="#"
+                    className="hover:text-gray-300 transition-colors whitespace-nowrap"
+                  >
+                    Portfolio
+                  </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="bg-white text-black px-3 lg:px-4 py-1 lg:py-2 rounded-full hover:bg-gray-200 transition-colors text-xs lg:text-sm whitespace-nowrap"
-                >
-                  CONTACT ME
-                </a>
+                <Link to="/contact">
+                  <a
+                    href="#"
+                    className="bg-white text-black px-3 lg:px-4 py-1 lg:py-2 rounded-full hover:bg-gray-200 transition-colors text-xs lg:text-sm whitespace-nowrap"
+                  >
+                    CONTACT ME
+                  </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -153,9 +157,7 @@ const Home = () => {
       <div>
         <Skill />
       </div>
-      <div>
-        <Footer />
-      </div>
+      <div>{/* <Footer /> */}</div>
     </div>
   );
 };
