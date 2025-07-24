@@ -144,7 +144,7 @@ const Home = () => {
         }
       `}</style>
       <div>
-        <div className="bg-black text-white p-4 md:p-2">
+        {/* <div className="bg-black text-white p-4 md:p-2">
           <h3 className="text-lg font-bold mb-3">IT</h3>
           <p className="text-xs md:text-sm text-gray-300 leading-relaxed mb-4">
             Internet and Coding APA Format (7th Edition) Book Citation Flanagan,
@@ -158,7 +158,7 @@ const Home = () => {
               READ MORE
             </button>
           </a>
-        </div>
+        </div> */}
         <About />
       </div>
       <div>
