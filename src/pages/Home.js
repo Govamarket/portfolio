@@ -4,6 +4,7 @@ import profileImage from "../assets/me.jpg"; // Adjust the path as necessary
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
 import About from "./About";
+import Skill from "./Skill";
 
 const Home = () => {
   return (
@@ -159,7 +160,9 @@ const Home = () => {
         </div>
         <About />
       </div>
-
+      <div>
+        <Skill />
+      </div>
       <div>
         <Footer />
       </div>
