@@ -65,20 +65,24 @@ const Home = () => {
           <nav className="absolute top-4 lg:top-20 left-4 right-4 lg:right-8 lg:left-auto z-10">
             <ul className="flex flex-wrap gap-4 lg:gap-8 text-xs lg:text-sm text-white justify-center lg:justify-end">
               <li>
-                <a
-                  href="#"
-                  className="hover:text-gray-300 transition-colors whitespace-nowrap"
-                >
-                  About me
-                </a>
+                <Link to="/about">
+                  <a
+                    href="#"
+                    className="hover:text-gray-300 transition-colors whitespace-nowrap"
+                  >
+                    About me
+                  </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="hover:text-gray-300 transition-colors whitespace-nowrap"
-                >
-                  Skills
-                </a>
+                <Link to="/skill">
+                  <a
+                    href="#"
+                    className="hover:text-gray-300 transition-colors whitespace-nowrap"
+                  >
+                    Skills
+                  </a>
+                </Link>
               </li>
               <li>
                 <a
@@ -144,21 +148,6 @@ const Home = () => {
         }
       `}</style>
       <div>
-        {/* <div className="bg-black text-white p-4 md:p-2">
-          <h3 className="text-lg font-bold mb-3">IT</h3>
-          <p className="text-xs md:text-sm text-gray-300 leading-relaxed mb-4">
-            Internet and Coding APA Format (7th Edition) Book Citation Flanagan,
-            D. (2020). JavaScript: The definitive guide (7th ed.). O'Reilly
-            Media. Journal Article Smith, J. A., & Johnson, M. B. (2023). The
-            evolution of web development frameworks in the modern internet era.
-            Journal of Computer Science Education, 45(3), 112-128.
-          </p>
-          <a href="https://doi.org/10.1234/jcse.2023.45.3.112">
-            <button className="text-white border border-white px-4 py-2 text-xs md:text-sm hover:bg-white hover:text-gray-800 transition-colors">
-              READ MORE
-            </button>
-          </a>
-        </div> */}
         <About />
       </div>
       <div>
