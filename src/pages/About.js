@@ -4,12 +4,6 @@ import { useState } from "react";
 const About = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const modal = [
-    {
-      text: "👋 Hi, I'm Clinton 🎨 I specialize in UI/UX and Frontend Development 🧠 Strong in Web3 – Solidity, React, JS, Smart Contracts 🌱 Currently building decentralized tools and dApps 💼 Chief Editor @DappLab – Writing on airdrops, testnets & crypto insights 🤝 Open to Web3 collabs, especially frontend-heavy projects 📫 Reach me on Linktree ⚡ Fun fact: I turn ideas into slick Web3 interfaces 🚀",
-    },
-  ];
-
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
   };
@@ -45,10 +39,13 @@ const About = () => {
                   ABOUT ME
                 </div>
                 <p className="text-xs text-gray-600 max-w-lg mx-auto mb-8 leading-loose">
-                  Hello! I'm Joel, a creative freelance designer. I build
-                  engaging websites and create unique designs. I also
-                  collaborate with clients to provide bespoke consulting and
-                  social strategy advice.
+                  👋 Hi, I'm Clinton 🎨 I specialize in UI/UX and Frontend
+                  Development 🧠 Strong in Web3 – Solidity, React, JS, Smart
+                  Contracts 🌱 Currently building decentralized tools and dApps
+                  💼 Chief Editor @DappLab – Writing on airdrops, testnets &
+                  crypto insights 🤝 Open to Web3 collabs, especially
+                  frontend-heavy projects 📫 Reach me on Linktree ⚡ Fun fact: I
+                  turn ideas into slick Web3 interfaces 🚀
                 </p>
                 <a
                   href="#"
