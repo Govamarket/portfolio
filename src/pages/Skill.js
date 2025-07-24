@@ -197,7 +197,7 @@ const Skill = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-black via-black to-black text-white p-8 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-gray-100 via-gray-100 to-gray-100 text-black p-8 relative overflow-hidden">
       {/* Background matrix effect */}
       <div className="absolute inset-0 opacity-10">
         {[...Array(50)].map((_, i) => (
